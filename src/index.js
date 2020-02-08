@@ -11,7 +11,7 @@ function App() {
       <Header />
       <PageBody>
         <br />
-        <h1>Hello Dev Launchers!</h1>
+        <h1>Pokemon For Dummies!</h1>
         <hr />
         <h3>Start editing to see some magic</h3>
         <p>
