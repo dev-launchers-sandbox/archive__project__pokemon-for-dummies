@@ -16,13 +16,11 @@ deploy:
     target_branch: master
     on:
       branch: release
-  #masster branch parcel deployment
+  # deploy Github page to gh-pages branch
   - provider: pages
     skip_cleanup: true
     github_token: $GITHUB_TOKEN
-    keep_history: true
-    repo: dev-launchers-sandbox/$REPO_NAME
-    target_branch: gh-pages
+    local_dir: build
     on:
       branch: master
 
