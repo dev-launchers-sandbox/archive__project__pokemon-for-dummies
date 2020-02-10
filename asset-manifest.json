@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dev/project__pokemon-for-dummies/static/css/main.a31bcc75.chunk.css",
+    "main.js": "/dev/project__pokemon-for-dummies/static/js/main.04d56e43.chunk.js",
+    "main.js.map": "/dev/project__pokemon-for-dummies/static/js/main.04d56e43.chunk.js.map",
+    "runtime~main.js": "/dev/project__pokemon-for-dummies/static/js/runtime~main.6a237561.js",
+    "runtime~main.js.map": "/dev/project__pokemon-for-dummies/static/js/runtime~main.6a237561.js.map",
+    "static/js/2.358d5879.chunk.js": "/dev/project__pokemon-for-dummies/static/js/2.358d5879.chunk.js",
+    "static/js/2.358d5879.chunk.js.map": "/dev/project__pokemon-for-dummies/static/js/2.358d5879.chunk.js.map",
+    "index.html": "/dev/project__pokemon-for-dummies/index.html",
+    "precache-manifest.0ff49dcd2c340b5aee1ba04627125c15.js": "/dev/project__pokemon-for-dummies/precache-manifest.0ff49dcd2c340b5aee1ba04627125c15.js",
+    "service-worker.js": "/dev/project__pokemon-for-dummies/service-worker.js",
+    "static/css/main.a31bcc75.chunk.css.map": "/dev/project__pokemon-for-dummies/static/css/main.a31bcc75.chunk.css.map"
+  }
+}
