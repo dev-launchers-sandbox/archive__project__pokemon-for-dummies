@@ -3,10 +3,11 @@ node_js:
   - "8"
 script:
   #- parcel build index.html -d 'dist' --public-url ./ # use parcel to build project into /dist directory
-  #- chmod 755 ./ # enable full permissions for root directory
-  #- chmod 775 index.html # enable full permissions for index.html file in root directory
-  #- chmod -R 775 dist/ # enable full permissions for dist/ directory and all subdirectories
-  #- mv ./dist/* ./ # move built files from /dist to root (so github pages can serve up the apps)
+  - npm run build
+  - chmod 755 ./ # enable full permissions for root directory
+  - chmod 775 index.html # enable full permissions for index.html file in root directory
+  - chmod -R 775 build/ # enable full permissions for dist/ directory and all subdirectories
+  - mv ./build/* ./ # move built files from /dist to root (so github pages can serve up the apps)
 
 deploy:
   #master -> release branch deployment
@@ -31,3 +32,6 @@ deploy:
 before_install:
     #- "npm install -g phaser@3.16.1"
     #- "npm install -g parcel-bundler@^1.6.1"
+    - "npm install react@16.12.0"
+    - "npm install react-dom@16.12.0"
+    - "npm install react-scripts@3.0.1"
